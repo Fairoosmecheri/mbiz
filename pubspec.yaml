@@ -1,0 +1,47 @@
+name: pocket_arcade
+description: "Pocket Arcade - a collection of casual mini-games in a single, extensible mobile platform."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.3
+
+  # Navigation
+  go_router: ^14.1.0
+
+  # Monetization (AdMob)
+  google_mobile_ads: ^5.1.0
+
+  # In-app purchases (Remove Ads)
+  in_app_purchase: ^3.2.0
+
+  # Utilities
+  collection: ^1.18.0
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
